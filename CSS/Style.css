@@ -1,8 +1,18 @@
-p{
+
+
+ .leftaside{
+     height: 400px;
+     width: 20%;
+     background-color: aqua;
+     float: left;
+      
+      
+ }
+
+ h1 {
+     background-color: blue;
+ }
+ h2 {
     color:red;
     background-color: green;
 }
- 
- .logimg{
-    margin-bottom: 30%;
- }
