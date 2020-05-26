@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--  CSS Link -->
-    <link type="text/css" rel="stylesheet"
-        href="../CSS/Style.css">
+    <link type="text/css" rel="stylesheet" href="../CSS/Style.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
@@ -17,7 +16,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!-- Load an icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <script src="../JS/Scripts"></script>
     <title>Welcom to NSW</title>
 
 </head>
@@ -25,7 +24,7 @@
 <body>
     <div class="container">
         <header>
-            <nav class="navbar navbar-dark bg-warning text-dark sticky-top">
+            <nav class="navbar navbar-dark bg-success text-dark sticky-top">
                 <div class="container-fluid   ">
                     <div class="navbar-header ">
                         <!-- Image and text -->
@@ -48,69 +47,130 @@
                     </ul>
                     <form class="navbar-form navbar-right" action="/action_page.php">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search">
+                            <input type="text" class="form-control" placeholder="Search" style="border-radius: 20px;">
                         </div>
-                        <button type="submit" class="btn btn-default">Submit</button>
+                        <button type="submit" class="btn btn-default" style="border-radius: 20px;">Submit</button>
                     </form>
                 </div>
             </nav>
 
         </header>
 
-        <div id="brg">
-            <img src="../Images/sunset-1018464__480.webp" alt="" height="300" width="100%">
+        <div >
+            <img src="../Images/pond.jpg" alt="" height="300" width="100%" style="border-radius: 10px;">
 
         </div>
 
 
         <div class="ml-4" style="margin-top: 20px;">
-            <div class="leftaside"
+            <div class="leftaside mr-4"
                 style=" width:15%; height: 600px; background-image: url(../Images/awards.jpg); float: left;  ">
             </div>
-            <h2 class="text-center ">Key facts about NSW</h2>
-            <h4 style="padding-left: 100px;"> Nearly a third of all Australians live in New South Wales (NSW), with most
-                living in the state capital of Sydney. NSW is Australia’s largest state economy.</h4>
-            <h1>Capital</h1>
-            <h4>Sydney is the capital of New South Wales (NSW). The city of Sydney is located on the eastern coast of
-                NSW</h4>
-            <h1>Population</h1>
-            <h4>NSW has the highest population of any state in Australia, with 7.95 million residents as of March 2018.
-            </h4><br />
-            <h4>Roughly 64.5% of the state's population live in Greater Sydney.</h4><br />
-            <h4>NSW has the fastest growing population in Australia growing by roughly 106,100 people annually. Greater
-                Sydney and Newcastle have the highest population densities in the state, with 391 and 423 people per
-                square kilometre.</h4><br/>
-                <h4>Top five languages spoken at home in NSW</h4><br/>
+            <div id="info">
+                <h1>Key facts about NSW</h1>
+                <h4> Nearly a third of all Australians live in New South Wales (NSW), with
+                    most
+                    living in the state capital of Sydney.<br /> NSW is Australia’s largest state economy.</h4>
+                <h1>Capital</h1>
+                <h4>Sydney is the capital of New South Wales (NSW). The city of Sydney is located on the eastern coast
+                    of
+                    NSW</h4>
+                <h1>Population</h1>
+                <h4>NSW has the highest population of any state in Australia, with 8 million residents as of March
+                    2019.
+                </h4><br />
+                <h4>Roughly 64.5% of the state's population live in Greater Sydney.</h4><br />
+                <h4>NSW has the fastest growing population in Australia growing by roughly 106,100 people annually.
+                    Greater
+                    Sydney <br /> and Newcastle have the highest population densities in the state, with 391 and 423
+                    people per
+                    square kilometre.</h4><br />
+                <h4>Top five languages spoken at home in NSW</h4><br />
                 <table>
                     <tr>
-                      <th>First Name</th>
-                      <th>Last Name</th>
-                      <th>Points</th>
+                        <th>Language</th>
+                        <th>Number Of People</th>
+                        <th>Percentage</th>
                     </tr>
                     <tr>
-                      <td>Peter</td>
-                      <td>Griffin</td>
-                      <td>$100</td>
+                        <td>English</td>
+                        <td>5,126,633</td>
+                        <td>68.5%</td>
                     </tr>
                     <tr>
-                      <td>Lois</td>
-                      <td>Griffin</td>
-                      <td>$150</td>
+                        <td>Mandarin</td>
+                        <td>239,945</td>
+                        <td>3.2%</td>
                     </tr>
                     <tr>
-                      <td>Joe</td>
-                      <td>Swanson</td>
-                      <td>$300</td>
+                        <td>Arabic</td>
+                        <td>200,825</td>
+                        <td>2.7%</td>
                     </tr>
                     <tr>
-                      <td>Cleveland</td>
-                      <td>Brown</td>
-                      <td>$250</td>
+                        <td>Cantonese</td>
+                        <td>143,333</td>
+                        <td>1.9%</td>
                     </tr>
-                  </table>
-                  
+                    <tr>
+                        <td>Vietnamese</td>
+                        <td>102,896</td>
+                        <td>1.4%</td>
+                    </tr>
+                </table>
+            </div>
         </div>
 
+
+        <div class="row cardsDiv">
+            <div class="col-md-4">
+                <div class="card" style="width: 24rem;">
+                    <img class="card-img-top" src="../Images/operaHouse.jpg" alt="Card image cap" style="border-radius: 10px;">
+                    <div class="card-body">
+                        <h4 class="card-title"><b>Capitol</b></h4>
+                        <p class="card-text">Sydney — a coastal metropolis whose five million residents make it the
+                            largest city in Australia — is famous for many things. The glittering harbour, complemented
+                            by landmarks like the Sydney Opera House and the Sydney Harbour Bridge. The dozens of
+                            sun-bathed beaches peppering the spectacular coastline.</p>
+                        <a href="#" class="btn btn-primary" style="border-radius: 20px">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 24rem;">
+                    <img class="card-img-top" src="../Images/population.jpg" alt="Card image cap" style="border-radius: 10px;">
+                    <div class="card-body">
+                        <h4 class="card-title"><b>Population</b></h4>
+                        <p class="card-text ">In March 2019, the population of New South Wales was over 8 million,
+                            making it Australia's most populous state. Just under two-thirds of the state's population,
+                            5.1 million, live in the Greater Sydney area. Inhabitants of New South Wales are referred to
+                            as New South Welshmen.</p>
+                        <a href="#" class="btn btn-primary " style="margin-top: 20px; border-radius: 20px">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 24rem;">
+                    <img class="card-img-top" src="../Images/threeSisters.jpg" alt="Card image cap" style="border-radius: 10px;">
+                    <div class="card-body">
+                        <h4 class="card-title"><b>NSW</b></h4>
+                        <p class="card-text">By establishing your business in regional NSW you can leverage an
+                            economically and environmentally diverse area than can easily connect to elsewhere in
+                            Australia and the Asia Pacific.</p>
+                        <a href="#" class="btn btn-primary" style="margin-top: 60px; border-radius: 20px;">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
 
 
     </div>
@@ -119,16 +179,34 @@
 <hr />
 <div class="container">
 
-    <div class="row">
+    <div class="row bottomDiv">
         <div class="col-md-4">
             <h3>NSW Government</h3>
+            <ul>
+                <li>a</li>
+                <li>b</li>
+                <li>c</li>
+                <li>d</li>
+            </ul>
         </div>
 
         <div class="col-md-4">
             <h3>NSW Departments</h3>
+            <ul>
+                <li>a</li>
+                <li>b</li>
+                <li>c</li>
+                <li>d</li>
+            </ul>
         </div>
         <div class="col-md-4">
             <h3>Popular</h3>
+            <ul>
+                <li>a</li>
+                <li>b</li>
+                <li>c</li>
+                <li>d</li>
+            </ul>
         </div>
 
     </div>
@@ -137,5 +215,8 @@
 
 </div>
 
+<footer class="footerDiv">
 
+
+</footer>
 </html>
