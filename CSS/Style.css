@@ -6,9 +6,45 @@
       
       
  }
+ div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+     
+     
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.9;
+      color: red;
+  }
+  
+  .fa-facebook {
+    background:#125688;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: rgb(55, 207, 8);
+    color: white;
+  }
+  .fa-instagram {
+    background: #a34040;
+    color: white ;
+  }
+    
   
  .bottomDiv{
-     padding-left: 100px;
+     padding-left: 130px;
  }
  .footerDiv{
      height: 20vh;
