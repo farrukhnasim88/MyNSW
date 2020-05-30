@@ -21,57 +21,52 @@
     <!-- Load an icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="../JS/Scripts"></script>
-    
+
     <title>Welcom to NSW</title>
 
 </head>
 
-<body >
-    <div class="container bg-info " style="margin-top: 10px;">
+<body>
+    <div class="container  " style="margin-top: 10px;">
         <header>
-            <nav class="navbar navbar-dark bg-success text-dark" style="border:orange 1px solid ;">
-                <div class="container-fluid   ">
-                    <div class="navbar-header ">
-                        <!-- Image and text -->
+    
+            <div class="topnav" id="myTopnav" style="background-color: chocolate; border-radius: 10px;">
+                <a href="index.html" class="active"><img src="../Images/sunset-1018464__480.webp" width="50" height="30"
+                        class="d-inline-block align-top logimg" alt=""></a>
 
-                        <a class="navbar-brand" href="index.html">
-                            <img src="../Images/sunset-1018464__480.webp" width="50" height="30"
-                                class="d-inline-block align-top logimg" alt="">
-                        </a>
-                        <a class="navbar-brand  " href="index.html">My NSW</a>
+                <a class="navbar-brand   " href="index.html" style="margin-right: 40px;">My NSW</a>
 
-
+                <a href="Regions.html">Regions</a>
+                <a href="Economy.html">Economy</a>
+                <a href="Culture.html">Culture</a>
+                <a href="Councils.html">Councils</a>
+                <a href="Geography.html">Geography</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <form class="navbar-form navbar-right" action="/action_page.php" style="margin-right: 10px; ">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search" style="border-radius: 20px;">
                     </div>
-                    <ul class="nav navbar-nav ">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="Culture.html">Culture</a></li>
-                        <li><a href="Geography.html">Geography</a></li>
-                        <li><a href="Regions.html">Regions</a></li>
-                        <li><a href="Culture.html">Councils</a></li>
-                        <li><a href="Economy.html">Economy</a></li>
-                    </ul>
-                    <form class="navbar-form navbar-right" action="/action_page.php">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search" style="border-radius: 20px;">
-                        </div>
-                        <button type="submit" class="btn btn-default" style="border-radius: 20px;">Submit</button>
-                    </form>
-                </div>
-            </nav>
+                    <button type="submit" class="btn btn-default" style="border-radius: 20px;">Submit</button>
+                </form>
+            </div>
+
+
 
         </header>
 
-        <div class="sticky2" >
-            <img src="../Images/sydney.jpg" alt="" height="300" width="100%" style="border-radius: 10px; " >
+        <div class="sticky2 " style="margin-top: 5px;">
+            <img src="../Images/sydney.jpg" alt="" height="300" width="100%" style="border-radius: 10px; ">
 
         </div>
 
 
-        <div class="ml-4" style="margin-top: 20px;">
+        <div class="ml-4 " style="margin-top: 20px;">
             <div class="leftaside mr-4"
                 style=" width:15%; height: 600px; background-image: url(../Images/awards.jpg); float: left;  ">
             </div>
-            <div id="info">
+            <div id="info" class="">
                 <h1>Key facts about NSW</h1>
                 <h4> Nearly a third of all Australians live in New South Wales (NSW), with
                     most
@@ -93,39 +88,39 @@
                 <h4>Top five languages spoken at home in NSW</h4><br />
                 <table>
                     <thead>
-                    <tr>
-                        <th>Language</th>
-                        <th>Number Of People</th>
-                        <th>Percentage</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>English</td>
-                        <td>5,126,633</td>
-                        <td>68.5%</td>
-                    </tr>
-                    <tr>
-                        <td>Mandarin</td>
-                        <td>239,945</td>
-                        <td>3.2%</td>
-                    </tr>
-                    <tr>
-                        <td>Arabic</td>
-                        <td>200,825</td>
-                        <td>2.7%</td>
-                    </tr>
-                    <tr>
-                        <td>Cantonese</td>
-                        <td>143,333</td>
-                        <td>1.9%</td>
-                    </tr>
-                    <tr>
-                        <td>Vietnamese</td>
-                        <td>102,896</td>
-                        <td>1.4%</td>
-                    </tr>
-                </tbody>
+                        <tr>
+                            <th>Language</th>
+                            <th>Number Of People</th>
+                            <th>Percentage</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>English</td>
+                            <td>5,126,633</td>
+                            <td>68.5%</td>
+                        </tr>
+                        <tr>
+                            <td>Mandarin</td>
+                            <td>239,945</td>
+                            <td>3.2%</td>
+                        </tr>
+                        <tr>
+                            <td>Arabic</td>
+                            <td>200,825</td>
+                            <td>2.7%</td>
+                        </tr>
+                        <tr>
+                            <td>Cantonese</td>
+                            <td>143,333</td>
+                            <td>1.9%</td>
+                        </tr>
+                        <tr>
+                            <td>Vietnamese</td>
+                            <td>102,896</td>
+                            <td>1.4%</td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
         </div>
@@ -134,39 +129,45 @@
         <div class="row cardsDiv">
             <div class="col-md-4">
                 <div class="card" style="width: 24rem;">
-                    <img class="card-img-top" src="../Images/operaHouse.jpg" alt="Card image cap" style="border-radius: 10px;">
+                    <img class="card-img-top" src="../Images/operaHouse.jpg" alt="Card image cap"
+                        style="border-radius: 10px;">
                     <div class="card-body">
                         <h4 class="card-title"><b>Capitol</b></h4>
                         <p class="card-text">Sydney — a coastal metropolis whose five million residents make it the
                             largest city in Australia — is famous for many things. The glittering harbour, complemented
                             by landmarks like the Sydney Opera House and the Sydney Harbour Bridge. The dozens of
                             sun-bathed beaches peppering the spectacular coastline.</p>
-                        <a href="https://www.sydney.com/" class="btn btn-primary " style="border-radius: 20px; width:50%;">Go Sydney</a>
+                        <a href="https://www.sydney.com/" class="btn btn-primary "
+                            style="border-radius: 20px; width:50%;">Go Sydney</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card" style="width: 24rem;">
-                    <img class="card-img-top" src="../Images/population.jpg" alt="Card image cap" style="border-radius: 10px;">
+                    <img class="card-img-top" src="../Images/population.jpg" alt="Card image cap"
+                        style="border-radius: 10px;">
                     <div class="card-body">
                         <h4 class="card-title"><b>Population</b></h4>
                         <p class="card-text ">In March 2019, the population of New South Wales was over 8 million,
                             making it Australia's most populous state. Just under two-thirds of the state's population,
                             5.1 million, live in the Greater Sydney area. Inhabitants of New South Wales are referred to
                             as New South Welshmen.</p>
-                        <a href="https://www.abs.gov.au/population" class="btn btn-primary  " style="margin-top: 20px; border-radius: 20px; width:50%;">Go Population</a>
+                        <a href="https://www.abs.gov.au/population" class="btn btn-primary  "
+                            style="margin-top: 20px; border-radius: 20px; width:50%;">Go Population</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card" style="width: 24rem;">
-                    <img class="card-img-top" src="../Images/threeSisters.jpg" alt="Card image cap" style="border-radius: 10px;">
+                    <img class="card-img-top" src="../Images/threeSisters.jpg" alt="Card image cap"
+                        style="border-radius: 10px;">
                     <div class="card-body">
                         <h4 class="card-title"><b>NSW</b></h4>
                         <p class="card-text">By establishing your business in regional NSW you can leverage an
                             economically and environmentally diverse area than can easily connect to elsewhere in
                             Australia and the Asia Pacific.</p>
-                        <a href="https://www.nsw.gov.au/about-nsw" class="btn btn-primary " style="margin-top: 60px; border-radius: 20px; width:50%">Go NSW</a>
+                        <a href="https://www.nsw.gov.au/about-nsw" class="btn btn-primary "
+                            style="margin-top: 60px; border-radius: 20px; width:50%">Go NSW</a>
                     </div>
                 </div>
             </div>
@@ -226,15 +227,26 @@
 
 <footer class="footerDiv">
     <div style="float: left; padding-top: 30px; padding-left: 30px; color: white;">
-        <p>We pay respect to the Traditional Custodians and First Peoples of NSW, and acknowledge their continued connection to their country and culture.</p>
-    <p>Copyright © 2020</p>
+        <p>We pay respect to the Traditional Custodians and First Peoples of NSW, and acknowledge their continued
+            connection to their country and culture.</p>
+        <p>Copyright © 2020</p>
     </div>
-    <div style="float:right;"> 
-    <a href="#" class="fa fa-facebook"></a>
-    <a href="#" class="fa fa-twitter"></a>
-    <a href="#" class="fa fa-instagram"></a>
-</div>
+    <div style="float:right;">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+    </div>
 
 </footer>
- 
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
 </html>
