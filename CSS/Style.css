@@ -137,3 +137,22 @@ table {
       text-align: left;
     }
   }
+
+  
+  
+  .parallax {
+    /* The image used */
+    background-image: url('../Images/sydney.jpg');
+  
+    /* Full height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+  
