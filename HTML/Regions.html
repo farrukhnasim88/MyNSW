@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--  CSS Link -->
     <link type="text/css" rel="stylesheet" href="../CSS/Style.css">
+     
     <!-- Bootstrap  -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -14,23 +15,32 @@
         crossorigin="anonymous"></script>
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    
     <!-- Load an icon library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   -->
+    <script src="../JS/scripts.js"></script>
 
     <title>Welcom to NSW</title>
 
 </head>
 
 <body>
-    <div class="container" style="margin-top: 10px;">
+    <div class="container">
         <header>
 
             <div class="topnav" id="myTopnav" style="background-color: chocolate; border-radius: 10px;">
-                <a href="index.html" class="active"><img src="../Images/sunset-1018464__480.webp" width="50" height="30"
+                <a href="index.html" class="active"><img src="../Images/nsw.jpg" width="70" height="35"
                         class="d-inline-block align-top logimg" alt=""></a>
 
-                <a class="navbar-brand   " href="index.html" style="margin-right: 40px;">My NSW</a>
-
+                <a class="navbar-brand   " href="index.html" style="margin-right: 20px;">My NSW</a>
+                <a href="index.html">Home</a>
                 <a href="Regions.html">Regions</a>
                 <a href="Economy.html">Economy</a>
                 <a href="Culture.html">Culture</a>
@@ -39,44 +49,64 @@
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
                 </a>
-                <form class="navbar-form navbar-right" action="/action_page.php" style="margin-right: 10px; ">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search" style="border-radius: 20px;">
-                    </div>
-                    <button type="submit" class="btn btn-default" style="border-radius: 20px;">Submit</button>
-                </form>
+                <form class="form-inline  my-2 my-lg-0" style="padding-top: 13px;">
+                    <input class="form-control mr-sm-2" style="border-radius: 20px;" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-info bg-warning my-2 my-sm-0 " style="border-radius: 20px;" type="submit">Search</button>
+                  </form>
             </div>
 
 
         </header>
 
-        <div id="">
-            <img src="../Images/sunset-1018464__480.webp" alt="" height="300" width="100%">
+
+
+
+        <div class="w3-content w3-section mt-4" style="max-width:100% ">
+            
+
+            <img class="mySlides w3-animate-fading" src="../Images/pckmn_96_7_0_nfi6zx.jpg" style="width:100%; height: 400px; border-radius: 10px;">
+            <img class="mySlides w3-animate-fading" src="../Images/r0_45_2179_1262_w1200_h678_fmax.jpg" style="width:100%; height: 400px; border-radius: 10px;">
+            <img class="mySlides w3-animate-fading" src="../Images/Shelly_Beach_in_Port_Macquarie_Credit_Destination_NSW_1000_666_60_int.jpg" style="width:100%; height: 400px; border-radius: 10px;">
 
         </div>
 
 
-        <div class="" style="margin-top: 20px;">
-            <div class="leftaside" style=" width:15%; height: 100%; float: left;">
-                <img src="../Images/ClimateTypesNSW.png">
-            </div>
-            <h2 class="text-center">Regions</h2>
 
-        </div>
+
 
 
 
     </div>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
+
+
+<script>
+
+function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
             }
-        }
-    </script>
+    
+    
+            var myIndex = 0;
+            carousel();
+    
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) { myIndex = 1 }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(carousel, 3000);
+            }
+</script>
+    
 </body>
 <hr />
 <div class="container">
