@@ -39,11 +39,43 @@ h4{
     background: rgb(55, 207, 8);
     color: white;
   }
-  .fa-instagram {
+  .fa-linkedin {
     background: #a34040;
     color: white ;
   }
+    #regionalInfo{
+
+      width:70%;
+      height: 100%;
+       float: left;
+      /* display: inline-block; */
+
+          
+    }
+    #regionHeader{
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+
+    }
+    #sectionDiv{
+      width:100%;
+      height: 400px;
+     
+
+    }
+.lia{
+  margin-top: 10px;
+}
+
+    #asideRegion {
+      height: 300px;
+      width: 30%;
+      background-color: rgb(235, 228, 217);
+      border: rgb(9, 10, 9) 0.3px solid;
+      float: left;
     
+    }
   
  .bottomDiv{
      padding-left: 130px;
