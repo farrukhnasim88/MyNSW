@@ -52,6 +52,9 @@ h4{
 
           
     }
+    .lisize{
+      font-size: 16px;
+    }
     #regionHeader{
       position: -webkit-sticky;
       position: sticky;
