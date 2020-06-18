@@ -52,6 +52,11 @@ h4{
 
           
     }
+    #newsLetter{
+      height: 170px;
+      width: 100%;
+      background-color:lightgoldenrodyellow ;
+    }
     .lisize{
       font-size: 16px;
     }
