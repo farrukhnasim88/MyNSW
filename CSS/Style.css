@@ -103,14 +103,9 @@ h4{
     background: #a34040;
     color: white ;
   }
-    #regionalInfo{
-
-      width:70%;
-      height: 100%;
-       float: left;
-      /* display: inline-block; */
-
-          
+   
+    .carousel-item img{
+      height: 400px !important;
     }
     .newsLetter{
       height: 140px;
@@ -136,14 +131,7 @@ h4{
   margin-top: 10px;
 }
 
-    #asideRegion {
-      height: 300px;
-      width: 30%;
-      background-color: rgb(235, 228, 217);
-      border: rgb(9, 10, 9) 0.3px solid;
-      float: left;
     
-    }
   
  
  .footerDiv{
