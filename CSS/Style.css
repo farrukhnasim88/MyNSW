@@ -17,7 +17,18 @@
   padding-left: 30px;
 }
 
+.bg {
+  /* The image used */
+  background-image: url("../Images/central-coast-1380302__480.jpg");
 
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /* Header Style     */
 /*-------------------------------------------------------------------*/
