@@ -6,68 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--  CSS Link -->
     <link type="text/css" rel="stylesheet" href="../CSS/Style.css">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Load an icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <!-- Font Awesome Icon -->
+    <script src="https://kit.fontawesome.com/695e1ffa5d.js" crossorigin="anonymous"></script>
     <title>Welcom to NSW</title>
-
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <div class="topnav" id="myTopnav" style="background-color: chocolate; border-radius: 10px;">
-                <a href="index.html" class="active"><img src="../Images/nsw.jpg" width="70" height="35"
-                        class="d-inline-block align-top logimg" alt=""></a>
 
-                <a class="navbar-brand   " href="index.html" style="margin-right: 20px;">My NSW</a>
-                <a href="index.html">Home</a>
-                <a href="Regions.html">Regions</a>
-                <a href="Economy.html">Economy</a>
-                <a href="Culture.html">Culture</a>
-                <a href="Councils.html">Councils</a>
-                <a href="Geography.html">Geography</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
+    <!--Header Start-->
+    <header>
+        <div class="container">
+
+            <nav class="navbar navbar-expand-lg navbar-light  rounded mt-2 ">
+                <a class="navbar-brand text-white " href="#">
+                    <img src="../Images/harbourBridge.jpg" width="50" height="30" class="d-inline-block align-top "
+                        alt="">
+                    My NSW
                 </a>
-                <form class="form-inline  my-2 my-lg-0" style="padding-top: 13px;">
-                    <input class="form-control mr-sm-2" style="border-radius: 20px;" type="search" placeholder="Search"
-                        aria-label="Search">
-                    <button class="btn btn-outline-info bg-warning my-2 my-sm-0 " style="border-radius: 20px;"
-                        type="submit">Search</button>
-                </form>
-            </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active ">
+                            <a class="nav-link text-white" href="index.html">Home <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="Regions.html">Regions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="Economy.html">Economy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white " href="Culture.html">Culture</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="Councils.html">Councils</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white " href="Geography.html">Geography</a>
+                        </li>
 
-        </header>
-
-        <div id="brg">
-            <img src="../Images/money2.webp" alt="" height="500" width="100%"
-                style="border-radius: 10px; margin-top: 20px;">
-
+                    </ul>
+                </div>
+            </nav>
         </div>
 
+    </header>
+    <!--/Header-------------------------------->
 
-        <div class="" style="margin-top: 20px;">
-            <div class="leftaside"
-                style=" width:15%; height: 600px; background-image: url(../Images/business_Lady.Webp);  ">
-                <div style="background-color: chartreuse; height: 600px; width: 50%; f"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 ">
+                <img src="../Images/money2.webp" alt="" class="my-2 img-fluid eco ">
             </div>
-            <div style="width: 80%; height:200px; float:right;">
+            <div class="col-lg-9">
                 <h1>NSW Economy</h1>
                 <p style="font-size: 16px;">At more than half-a-trillion dollars, NSW is Australia’s largest state
-                    economy. The state has a
-                    diversified, service driven economy.</p>
+                    economy. The state has a diversified, service driven economy.</p>
                 <p style="font-size: 16px;">The industries that are the largest contributors to the economy are:</p>
                 <ul>
-                    <li>business services (which includes financial services, real estate services and information media
+                    <li>business services (which includes financial services, real estate services and information
+                        media
                         and telecommunications)</li>
                     <li class="lisize">construction</li>
                     <li class="lisize">manufacturing</li>
@@ -83,108 +90,123 @@
 
                 </ul>
 
-                <p class="lisize"><a href="https://www.treasury.nsw.gov.au/nsw-economy/about-nsw-economy">Find out more
+                <p class="lisize"><a href="https://www.treasury.nsw.gov.au/nsw-economy/about-nsw-economy">Find out
+                        more
                         about NSW
                         Economy</a></p>
                 <h2>Credit rating</h2>
-                <p>NSW has been assessed to have the highest possible credit rating, AAA, by both Moody’s and Standard &
-                    Poor’s. NSW is one of only two states with a triple-A credit rating. This rating was given because
+                <p>NSW has been assessed to have the highest possible credit rating, AAA, by both Moody’s and
+                    Standard &
+                    Poor’s. NSW is one of only two states with a triple-A credit rating. This rating was given
+                    because
                     of the state’s strong, stable economy and financial management.</p>
-                <p>NSW has a strong institutional framework and a diverse economy, and is focused on investing in areas
+                <p>NSW has a strong institutional framework and a diverse economy, and is focused on investing in
+                    areas
                     where it is most needed in order to strengthen our economy further.</p>
                 <p>Visit <a
                         href="https://www.treasury.nsw.gov.au/nsw-economy/about-nsw-economy/triple-credit-rating">NSW
-                        Treasury</a> to find out more about the Triple-A credit rating and what it means for the state's
+                        Treasury</a> to find out more about the Triple-A credit rating and what it means for the
+                    state's
                     economy.</p>
             </div>
 
+
         </div>
     </div>
-    <hr />
-    <div class="newsLetter">
-        <div class=" row container ">
-<div class="col-lg-5">
-            <h2>Sign up to our newsletter</h2>
-            <p>Receive NSW Government news, events, and public consultations in your inbox.</p>
+  
+    </div>
+     
+        <div class=" row ">
+            <div class="bg-warning col-lg-12 ">
+            <div class="col-lg-12">
+                <h2>Sign up to our newsletter</h2>
+                <p>Receive NSW Government news, events, and public consultations in your inbox.</p>
+            </div>
+            <div class="col--lg-12  ">
+                <form class="form-inline ml-4 "  action="/action_page.php ">
+                    <label for="email2" class="mb-2 mr-sm-2">Email:</label>
+                    <input type="text" class="form-control mr-4 mb-2 " id="email2" placeholder="Enter email"
+                        name="email" style="width: 300px;">
+
+
+                    <label class="form-check-label ml-4">
+                        <input type="checkbox" class="form-check-input" name="remember"> Remember me
+                    </label>
+
+                    <button type="submit" class="btn btn-primary mb-2 ml-4">Subscribe</button>
+                </form>
+            </div>
         </div>
-        <div class=" ">
-            <form class="form-inline " action="/action_page.php">
-                <label for="email2" class="mb-2 mr-sm-2">Email:</label>
-                <input type="text" class="form-control mr-4 mb-2 " id="email2" placeholder="Enter email" name="email"
-                    style="width: 300px;">
-
-
-                <label class="form-check-label ml-4">
-                    <input type="checkbox" class="form-check-input" name="remember"> Remember me
-                </label>
-
-                <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
-            </form>
+     
+    </div>
+<div class="container">
+    <div class="row mt-4 ">
+        <div class="col-md-4">
+            <h3>NSW Government</h3>
+            <ul>
+                <li>The Premier</li>
+                <li>Media Releases</li>
+                <li>NSW Ministers</li>
+                <li>Have Your Say</li>
+            </ul>
         </div>
+
+        <div class="col-md-4">
+            <h3>NSW Departments</h3>
+            <ul>
+                <li>Education</li>
+                <li>Health</li>
+                <li>Planning and Development</li>
+                <li>Regional NSW</li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <h3>Popular</h3>
+            <ul>
+                <li>News</li>
+                <li>Life Events</li>
+                <li>NSW School and Public Holidays</li>
+                <li>Find a Job in NSW Government</li>
+            </ul>
         </div>
 
     </div>
-
-    <div class="container">
-
-        <div class="row bottomDiv">
-            <div class="col-md-4">
-                <h3>NSW Government</h3>
-                <ul>
-                    <li>The Premier</li>
-                    <li>Media Releases</li>
-                    <li>NSW Ministers</li>
-                    <li>Have Your Say</li>
-                </ul>
-            </div>
-
-            <div class="col-md-4">
-                <h3>NSW Departments</h3>
-                <ul>
-                    <li>Education</li>
-                    <li>Health</li>
-                    <li>Planning and Development</li>
-                    <li>Regional NSW</li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <h3>Popular</h3>
-                <ul>
-                    <li>News</li>
-                    <li>Life Events</li>
-                    <li>NSW School and Public Holidays</li>
-                    <li>Find a Job in NSW Government</li>
-                </ul>
+</div>
+    </main>
+    <!--Footer----------------------------->
+    <footer>
+        <div class="footerDiv">
+            <div class="row">
+                <div class="col-lg-9 " style="float: left; padding-top: 30px; padding-left: 30px; color: white;">
+                    <p>We pay respect to the Traditional Custodians and First Peoples of NSW, and acknowledge their
+                        continued
+                        connection to their country and culture.</p>
+                    <p>Copyright © 2020</p>
+                </div>
+                <div class="col-lg-3 pt-2 float-right">
+                    <a href="https://www.facebook.com/ServiceNSW/" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/ServiceNSW" class="fa fa-twitter"></a>
+                    <a href="https://www.linkedin.com/company/servicensw/?originalSubdomain=au"
+                        class="fa fa-linkedin"></a>
+                </div>
             </div>
         </div>
-    </div>
-
-
-
-
-    <footer class="footerDiv">
-        <div style="float: left; padding-top: 30px; padding-left: 30px; color: white;">
-            <p>We pay respect to the Traditional Custodians and First Peoples of NSW, and acknowledge their continued
-                connection to their country and culture.</p>
-            <p>Copyright © 2020</p>
-        </div>
-        <div style="float:right;">
-            <a href="https://www.facebook.com/ServiceNSW/" class="fa fa-facebook"></a>
-            <a href="https://twitter.com/ServiceNSW" class="fa fa-twitter"></a>
-            <a href="https://www.linkedin.com/company/servicensw/?originalSubdomain=au" class="fa fa-linkedin"></a>
-        </div>
-
     </footer>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
+    <!----------/Footer------------------------>
+    <script src="../JS/Scripts"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
 </body>
 
 </html>
