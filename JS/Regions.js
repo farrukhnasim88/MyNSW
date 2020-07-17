@@ -22,4 +22,7 @@ var Regions = {
         setTimeout(3000);
         alert('hi carousel');
     }
+
+
+ 
 }
