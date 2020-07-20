@@ -24,19 +24,96 @@
 
 /*-------/Carousel----------------- */
 /*---------Regions------------------*/
-.panel, .flip {
+.panel1, .flip1 {
   padding: 5px;
   text-align: center;
-  background-color: #e5eecc;
+  background-color: #f1f51c;
   border: solid 1px #c3c3c3;
 }
 
-.panel {
+.panel1 {
   padding: 50px;
-  display: none;
+   
 }
 
+.panel2, .flip2 {
+  padding: 5px;
+  text-align: center;
+  background-color: #1190f8;
+  border: solid 1px #c3c3c3;
+}
 
+.panel2 {
+  padding: 50px;
+   
+}
+.panel3, .flip3 {
+  padding: 5px;
+  text-align: center;
+  background-color: #098992;
+  border: solid 1px #c3c3c3;
+}
+
+.panel3 {
+  padding: 50px;
+   
+}
+
+.panel4, .flip4 {
+  padding: 5px;
+  text-align: center;
+  background-color: #e96f79;
+  border: solid 1px #c3c3c3;
+}
+
+.panel4 {
+  padding: 50px;
+   
+}
+.panel5, .flip5 {
+  padding: 5px;
+  text-align: center;
+  background-color: #c591e7;
+  border: solid 1px #c3c3c3;
+}
+
+.panel5 {
+  padding: 50px;
+   
+}
+.panel6, .flip6 {
+  padding: 5px;
+  text-align: center;
+  background-color: #0cf0f0;
+  border: solid 1px #c3c3c3;
+}
+
+.panel6 {
+  padding: 50px;
+   
+}
+.panel7, .flip7 {
+  padding: 5px;
+  text-align: center;
+  background-color: #eff3e3;
+  border: solid 1px #c3c3c3;
+}
+
+.panel7 {
+  padding: 50px;
+   
+}
+.panel8, .flip8 {
+  padding: 5px;
+  text-align: center;
+  background-color: #f76754;
+  border: solid 1px #c3c3c3;
+}
+
+.panel8 {
+  padding: 50px;
+   
+}
 /*---------/Regions*/
 
 

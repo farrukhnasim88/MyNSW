@@ -144,51 +144,52 @@
             </div>
             <!----NSW Regions---->
             <div class="container">
+                <h3 class="my-4 text-center">An overview NSW Regions </h3>
+
                 <div class="row">
-                    <h5 class="my-4 ">An overview of the six out of nine regions of NSW</h5>
-                    <div class=" col-lg-12">
-                        <div class=" ">
-                            <h4 class="flip">South Coast</h4>
-                            <p class="panel">It covers 55,600 square kilometres of south-east NSW <a
+                                        
+                        <div class="col-lg-3 ">
+                            <h4 class="flip1">South Coast</h4>
+                            <p class="panel1">It covers 55,600 square km of south-east NSW <a
                                     href="https://www.lls.nsw.gov.au/our-regions/north-coast">more</a></p>
                         </div>
-                        <div>
-                            <h4 class="flip">North Coast</h4>
-                            <p class="panel">It extends from Tweed Shire Council in the north <a
+                        <div  class="col-lg-3 ">
+                            <h4 class="flip2">North Coast</h4>
+                            <p class="panel2">It extends from Tweed Shire Council in the north <a
                                     href="https://www.lls.nsw.gov.au/our-regions/north-coast">more</a></p>
                         </div>
-                        <div>
-                            <h4 class="flip">North Coast</h4>
-                            <p class="panel">It extends from Tweed Shire Council in the north <a
+                        <div  class="col-lg-3 ">
+                            <h4 class="flip3">Riverina</h4>
+                            <p class="panel3">It extends from Tweed Shire Council in the north <a
                                     href="https://www.lls.nsw.gov.au/our-regions/north-coast">more</a></p>
                         </div>
-                        <div class=" ">
-                            <h4  class="flip">South Coast</h4>
-                            <p  class="panel">It covers 55,600 square kilometres of south-east NSW <a
+                        <div class="col-lg-3 ">
+                            <h4  class="flip4">Hunter</h4>
+                            <p  class="panel4">It covers 55,600 square km of south-east NSW <a
                                     href="https://www.lls.nsw.gov.au/our-regions/north-coast">more</a></p>
                         </div>
-                        <div class=" ">
-                            <h4 class="flip">North Coast3</h4>
-                            <p class="panel">It extends from Tweed Shire Council in the north <a
+                        <div class="col-lg-3 ">
+                            <h4 class="flip5">Western</h4>
+                            <p class="panel5">It extends from Tweed Shire Council in the north <a
                                     href="https://www.lls.nsw.gov.au/our-regions/north-coast">more</a></p>
                         </div>
-                        <div class="">
-                            <h4 class="flip">North Coast4</h4>
-                            <p  class="panel">It extends from Tweed Shire Council in the north <a
+                        <div class="col-lg-3 ">
+                            <h4 class="flip6">Murray</h4>
+                            <p  class="panel6">It extends from Tweed Shire Council in the north <a
                                     href="https://www.lls.nsw.gov.au/our-regions/north-coast">more</a></p>
                         </div>
-                        <div class="">
-                            <h4 class="flip">North Coast5</h4>
-                            <p  class="panel">It extends from Tweed Shire Council in the north <a
+                        <div class="col-lg-3 ">
+                            <h4 class="flip7">Northern Tablelands</h4>
+                            <p  class="panel7">It extends from Tweed Shire Council in the north <a
                                     href="https://www.lls.nsw.gov.au/our-regions/north-coast">more</a></p>
                         </div>
-                        <div class="">
-                            <h4  class="flip">North Coast6</h4>
-                            <p  class="panel">It extends from Tweed Shire Council in the north <a
+                        <div class="col-lg-3 ">
+                            <h4  class="flip8">Central Tablelands</h4>
+                            <p  class="panel8">It extends from Tweed Shire Council in the north <a
                                     href="https://www.lls.nsw.gov.au/our-regions/north-coast">more</a></p>
                         </div>
 
-                    </div>
+                    
                 </div>
             </div>
             <!----/NSW Regions---->
@@ -248,7 +249,7 @@
     </footer>
     <!----/Footer---->
 
-    <script src="../JS/Scripts"></script>
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -260,13 +261,21 @@
         crossorigin="anonymous"></script>
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+    <script src="../JS/Regions.js"></script>
     <script>
-        $(document).ready(function () {
-            $(".flip").click(function () {
-                $(".panel").slideToggle("slow");
-            });
-        });
+       Regions.SouthCoast();
+       Regions.NorthCoast();
+       Regions.Riverina();
+       Regions.Hunter();
+       Regions.Western();
+       Regions.Murray();
+       Regions.NorthernTablelands();
+       Regions.CentralTablelands();
+     
+       
+       
+
+
     </script>
 
 </body>

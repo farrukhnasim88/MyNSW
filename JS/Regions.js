@@ -21,8 +21,69 @@ var Regions = {
         x[myIndex - 1].style.display = "block";
         setTimeout(3000);
         alert('hi carousel');
-    }
+    },
+   SouthCoast: function(){
+        $(document).ready(function () {
+            
+            $(".flip1").click(function () {
+                $(".panel1").slideToggle("slow");
+            });
+        
+        });
+    },
+    NorthCoast: function(){
+        $(document).ready(function () {
+            $(".flip2").click(function () {
+                $(".panel2").slideToggle("slow");
+            });
+        });
+    },
+    Riverina: function(){
+        $(document).ready(function () {
+            $(".flip3").click(function () {
+                $(".panel3").slideToggle("slow");
+            });
+        });
+    },
+    Hunter:function (){
+        $(document).ready(function () {
+            $(".flip4").click(function () {
+                $(".panel4").slideToggle("slow");
+            });
+        });
+    },
+    Western: function(){
+        $(document).ready(function () {
+            $(".flip5").click(function () {
+                $(".panel5").slideToggle("slow");
+            });
+        });
+    },
+    Murray: function(){
+        $(document).ready(function () {
+            $(".flip6").click(function () {
+                $(".panel6").slideToggle("slow");
+            });
+        });
+    },
+    NorthernTablelands: function(){
+        $(document).ready(function () {
+            $(".flip7").click(function () {
+                $(".panel7").slideToggle("slow");
+            });
+        });
+    },
+    CentralTablelands: function(){
+        $(document).ready(function () {
+            $(".flip8").click(function () {
+                $(".panel8").slideToggle("slow");
+            });
+        });
+    },
 
+
+
+    
 
  
 }
