@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:ital@1&family=Roboto+Mono:ital@1&display=swap');
+
+:root{
+  --dancing:"Dancing Script", cursive;
+}
+ 
+/*   ------- Navbar Style-------     */
+.navbar-brand{
+    font-family: var(--dancing);
+    font-size: 0.3em;
+  }
+  .nav-item{
+    padding-left: 30px;
+  }
+  .navbar{
+    background-color: rgb(219, 170, 7);
+  }
+/*-------------------------------/Navbar-----------------------------------------*/
+
+/*-----------------------------Header----------------------------------------*/
+#header-img{
+    height:400px !important;
+}
+
+.bgimage {
+  width:100%;
+  height:400px;
+  background: url('../Images/ballon.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+  margin-top: 15px !important;
+}
+.bgimage h3 {
+  color:white;
+  text-shadow:2px 2px #333;
+}
+.bgimage p{
+  color: white;
+}
+.img-text{
+  margin-top: 130px !important;
+}
+ .bgimage hr{
+  border-top: 1px solid white;
+}
+
+
+/*-----------------------------/Header----------------------------------------*/
+
+/*--------------------------Main--------------------------------------*/
+
+
+/*-----------------------------/Main----------------------------------*/
+
+
+/*----------Icons-------------------*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.9;
+      color: red;
+  }
+  
+  .fa-facebook {
+    background:#125688;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: rgb(55, 207, 8);
+    color: white;
+  }
+  .fa-linkedin {
+    background: #a34040;
+    color: white ;
+  }
+
+  /*--------------------/Icons--------------------------*/
